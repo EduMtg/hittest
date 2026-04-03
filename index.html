@@ -106,7 +106,7 @@ async function activateXR() {
       const clone = rato.clone();
       clone.position.setFromMatrixPosition(reticle.matrix);
       clone.quaternion.setFromRotationMatrix(reticle.matrix);
-      clone.scale.set(80.0, 80.0, 80.0); 
+      clone.scale.set(50.0, 50.0, 50.0); 
       scene.add(clone);
     }
   });
